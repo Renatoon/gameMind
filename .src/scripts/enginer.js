@@ -55,4 +55,8 @@ function checkMatch(){
     }
 
     openCards = []; 
+
+    if (document.querySelectorAll('.boxMatch').length === emojis.length) {
+        alert('Parabéns! Você encontrou todos os pares!');
+    }
 }
